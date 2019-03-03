@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Technitia 2K15 - Online Registration Forum</title>
+		<meta name="description" content="Technitia 2K15 - Online Registration Form" />
+		<meta name="keywords" content="Technitia_2K15_webloud_Online_Registration" />
+		<meta name="author" content="Technitia" />
+		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/cs-skin-boxes.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container" style="background:url(img/b.jpg);background-size:cover;">
+<div style="width:100%; height:100%;background:rgba(0,0,0,.8);">
+
+			<div class="fs-form-wrap" id="fs-form-wrap">
+				<div class="fs-title">
+					<h1 style="font-family:century gothic">TECHNITIA<font color=#FF2052>11</font></h1>
+					<div class="codrops-top">
+						
+						<a class="#" href="#" style="color:#fff;"><span>Online Registration Forum</span></a>
+					</div>
+				</div>
+
+
+				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
+
+                                <form action="register.php" method="POST">
+
+					<ol class="fs-fields">
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q1">Contestant one </label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="text"     name="c1name"  placeholder="name here" required/>
+						</li>
+
+
+                                                 <li>
+							<label class="fs-field-label fs-anim-upper" for="q1">Contestant two</label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="text"   name="c2name" placeholder="Name here" required/>
+						</li>
+
+  <li>
+							<label class="fs-field-label fs-anim-upper" for="q1">Your School ?</label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="text"  name="sc_name" placeholder="School Name" required/>
+						</li>
+
+
+
+<li>
+							<label class="fs-field-label fs-anim-upper" for="q1">Local area</label>
+							<input class="fs-anim-lower" id="q1" name="q1" type="text"  name="sc_address" placeholder="place" required/>
+						</li>
+
+<li>
+							<label class="fs-field-label fs-anim-upper" for="q2" data-info="We won't send you spam, we promise...">What's your email address?</label>
+							<input class="fs-anim-lower" id="q2" name="q2" type="email" name="sc_em" placeholder="E-mail address" required/>
+						</li>
+
+<li>
+							<label class="fs-field-label fs-anim-upper" for="q2" >Contact Number</label>
+							<input class="fs-anim-lower" id="q2" name="q2" type="text"  name="sc_mob" placeholder="Contact Number" required/>
+						</li>
+
+
+					</ol><!-- /fs-fields -->
+					<button class="fs-submit" type="submit">Submit</button>
+				</form></form><!-- /fs-form -->
+			</div><!-- /fs-form-wrap -->
+
+			<!-- Related demos -->
+			<div class="related">
+				<p>You Must take principles letter on the arrival:</p>
+
+<h1>Topics</h1>
+				<a href="#">
+					<h3>Technology</h3>
+<h3>Arts and science</h3><h3>Mathematics</h3>
+					<h3>Literature</h3>
+				</a>
+			
+			</div>
+
+<center><p style="position:fixed;bottom:5%;left:5%;color:rgba(255,255,255,.7);">Powered  <a style="color:#fff;font-weight:bold;"> ACE</A>  |  Design <a style="color:#fff;font-weight:bold;" href="http://www.webloud.in/" target=blank>Webloud</a>
+
+<div style="position:fixed;left:0%;top:35%;">
+<a href=#><img src=img/f.png  height=35 width=35 style="float:left; "><br></a>
+<a href=#><img src=img/t.png height=35 width=35 style="float:left;"><br></a>
+<a href=#><img src=img/g.png height=35 width=35 style="float:left;"><br></a>
+<a href=#><img src=img/p.png  height=35 width=35 style="float:left; "><br></a>
+<a href=#><img src=img/r.png height=35 width=35 style="float:left;"><br></a>
+<a href=#><img src=img/s.png height=35 width=35 style="float:left;"><br></a>
+</div>
+
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script src="js/fullscreenForm.js"></script>
+		<script>
+			(function() {
+				var formWrap = document.getElementById( 'fs-form-wrap' );
+
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+					new SelectFx( el, {
+						stickyPlaceholder: false,
+						onChange: function(val){
+							document.querySelector('span.cs-placeholder').style.backgroundColor = val;
+						}
+					});
+				} );
+
+				new FForm( formWrap, {
+					onReview : function() {
+						classie.add( document.body, 'overview' ); // for demo purposes only
+					}
+				} );
+			})();
+		</script>
+	</body>
+</html>
