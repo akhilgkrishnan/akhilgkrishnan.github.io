@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
+      <div>
         <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	        <div ClassName="container">
             <a href="" ClassName="logo">
@@ -27,6 +28,32 @@ class Header extends Component {
             </div>
 	        </div>
 	      </nav>
+        <section className="hero-wrap js-fullheight">
+          <div className="overlay"></div>
+          <div className="container">
+            <div className="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+              <div className="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+                <div className="text text-center">
+                  <span className="subheading">Hey! I am</span>
+                  <h1>Akhil G Krishnan <span className="wave-emoji">👋</span></h1>
+                  <h2>I'm a
+                    <span
+                        className="txt-rotate"
+                        data-period="2000"
+                        data-rotate='[ "Web Designer.", "Developer.", "Cybersecurity Researcher.", "ML/DL Enthusiast.", "Equity Trader." ,"Linux Lover."]'>
+                    </span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mouse">
+            <a href="#" className="mouse-icon">
+              <div className="mouse-wheel"><span className="ion-ios-arrow-round-down"></span></div>
+            </a>
+          </div>
+        </section>
+      </div>
     );
   }
 }
