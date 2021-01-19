@@ -9261,7 +9261,12 @@ textarea.form-control {
 
 .ftco-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+}
+
+.ftco-animate span:hover {
+  transform: translateX(10px) rotate(360deg);
+}
 
 .bg-primary {
   background:var(--color-primary) !important; }
