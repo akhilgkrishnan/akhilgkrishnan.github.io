@@ -11988,7 +11988,7 @@ textarea.form-control {
   visibility: hidden;
 }
 
-.ftco-animate span:hover {
+.ftco-footer-social .ftco-animate span:hover {
   transition: 0.2s;
   transform: scale(1.5);
 }
