@@ -8614,6 +8614,18 @@ button.bg-dark:focus {
   display: block;
   margin: 2.5px;
 }
+.project-tool-icon > a {
+  font-size: 18px;
+  color: #b1afb8;
+  background: #48474b;
+  height: 40px;
+  width: 100px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 10px 10px 10px 0;
+  display: block;
+  margin: 2.5px;
+}
 .shadow-sm {
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
@@ -11905,7 +11917,13 @@ h5,
 .project .text h3 {
   font-size: 20px;
 }
+.project .text h4 {
+  font-size: 17px;
+}
 .project .text h3 a {
+  color: var(--color-third);
+}
+.project .text h4 a {
   color: var(--color-third);
 }
 .project .text span {
