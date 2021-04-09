@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: akhilgkrishnan.me
+Token: 2c3ae2b37cc6e340a587a6b4c98aca38610eb44f985a172916456571dd29644e
